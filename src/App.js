@@ -48,12 +48,7 @@ class App extends Component {
           </thead>
           <tbody>
             {
-              <EditAnAnswer
-                
-                addEntry={this.handleAdd}
-                editEntry={this.handleEdits}
-              />
-
+              <EditAnAnswer addEntry={this.handleAdd} />
             }
           </tbody>
         </table>
