@@ -65,6 +65,6 @@ On the github site, it is a good idea to have Jenkins automatically run the abov
 
 Since the app was created with create-react-app, you can clone the repo and use npm to try it out.
 
-+ git clone <repo name>.git
++ git clone https://github.com/muguira-james/testsre.git
 + npm install
 + npm start
