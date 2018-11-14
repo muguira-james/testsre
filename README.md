@@ -7,7 +7,7 @@ This project repo allows a teacher to input the answers from a Heat and Temperat
 The students are asked to convert input temperatures between:
 Fahrenheit, Celsius, Kelvin and Rankine
 
-In this case, the app is composed of 2 components and a container.  The 2 components are: EditAnAnswer and AnAnswer. The container is called App.  The EditAnAnswer component is used to enter temperature conversion information provided by the student.  EditAnswer is a stand-alone component that checks the student work, edits their results and provides feedback. Input fields are:
+In this case, the app is composed of 2 components and a container.  The 2 components are: TemperatureDimension and ProblemItem. The container is called Worksheet.  The TemperatureDimension component is used to enter temperature conversion information provided by the student.  ProblemItem, which uses the TemperatureDimension component, is a stand-alone component that checks the student work, edits their results and provides feedback. Input fields are:
 
 + An input temperature, of the form: several digits, a decimal point and 1, 2 or more digits.  
 + The student must choose a dimension for the input
@@ -44,6 +44,8 @@ combinations that where tested for include:
 + invalid problem statement specification
 
 ![invalid problem input](./sre_invalid_2.png)
+
+In addition, Jest unit tests are supplied. 
 
 #### feature branch checkin
 
