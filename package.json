@@ -1,10 +1,10 @@
 {
-  "name": "sre",
+  "name": "sre2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {
@@ -12,7 +12,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -24,8 +25,13 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@storybook/react": "^4.0.2",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.4"
+    "@babel/core": "^7.1.5",
+    "@storybook/addon-actions": "^4.0.4",
+    "@storybook/addon-links": "^4.0.4",
+    "@storybook/addons": "^4.0.4",
+    "@storybook/react": "^4.0.4",
+    "babel-loader": "^8.0.4",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0"
   }
 }
